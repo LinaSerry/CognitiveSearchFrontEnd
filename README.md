@@ -52,6 +52,9 @@ After updating appsettings.json with the correct field, open the project in VSCo
 ### 2.4 Quick deploy of app to Azure 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.svg)](https://azuredeploy.net/)
 
+OR to provision using the portal create a Web app and deploy your code from github following https://docs.microsoft.com/en-us/azure/app-service/deploy-continuous-deployment: 
+
+
 ## Known Issues That We Should Fix
 
 1. The version of the Office file viewer we use does not show larger files. Pull requests welcome. :-) 

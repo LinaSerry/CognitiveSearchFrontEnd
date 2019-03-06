@@ -49,6 +49,9 @@ To modify the fields you expect, take a look at the [SearchModel.cs](./Cognitive
 ### 2.3 To run Locally 
 After updating appsettings.json with the correct field, open the project in VSCode and start debugging, this will run it locally and launch the website for you 
 
+### 2.4 Quick deploy of app to Azure 
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.svg)](https://azuredeploy.net/)
+
 ## Known Issues That We Should Fix
 
 1. The version of the Office file viewer we use does not show larger files. Pull requests welcome. :-) 

@@ -22,7 +22,6 @@ In order to do that you will need to update the following fields in [appsettings
 
 ![](.\images\config.png)
 
-
 ### 2.2 Expectations on the Search Index
 
 It is critical that you set the right search field properties as described in the table below if you want the front end code to work without a hitch.
@@ -46,6 +45,9 @@ To modify the fields you expect, take a look at the [SearchModel.cs](./Cognitive
 **Tags** - Defines which fields will be added to the Results card and details view as buttons. By default includes all facetable fields.
 
 **ResultFields** - Defines which fields will be returned in the results view. Only fields that are used for the UI should be included here to reduce latency caused by larger documents. By default includes all fields.
+
+### 2.3 To run Locally 
+After updating appsettings.json with the correct field, open the project in VSCode and start debugging, this will run it locally and launch the website for you 
 
 ## Known Issues That We Should Fix
 
